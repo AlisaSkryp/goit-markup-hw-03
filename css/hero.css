@@ -9,6 +9,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-top: 188px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -19,8 +21,16 @@
   cursor: pointer;
   color: #fff;
   background: #4d5ae5;
+  padding: 16px 32px;
 }
 
 .hero-button:hover {
   background-color: #404bbf;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
