@@ -14,6 +14,7 @@
 
 .team-item {
   background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-item-title {
@@ -31,14 +32,18 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-top: 8px;
 }
 
 .team-list{
   display: flex;
   gap: 24px;
-  width: calc(100% - 72px / 4);
 }
 
 .team-item-overlay{
   padding: 32px 16px;
+}
+
+.team-item-image {
+  display: block;
 }
